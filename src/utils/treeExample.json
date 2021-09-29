@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "parent": 0,
+    "text": "test 1",
+    "droppable": true
+  },
+  {
+    "id": 2,
+    "parent": 1,
+    "text": "test 2"
+  },
+  {
+    "id": 3,
+    "parent": 1,
+    "text": "test 3"
+  },
+  {
+    "id": 4,
+    "parent": 0,
+    "text": "test 4"
+  },
+  {
+    "id": 5,
+    "parent": 0,
+    "text": "test 5"
+  }
+]
