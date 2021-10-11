@@ -1,4 +1,4 @@
-import { Spinner } from "../../../league/src";
+import { Spinner } from "@caisy/league";
 
 const SpinnerShowcase = () => {
   return (

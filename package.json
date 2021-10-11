@@ -10,7 +10,7 @@
     "lint:types": "next lint"
   },
   "dependencies": {
-    "@caisy/league": "^0.0.77",
+    "@caisy/league": "^0.0.78",
     "next": "^11.1.2",
     "next-transpile-modules": "^8.0.0",
     "react": "^17.0.2",

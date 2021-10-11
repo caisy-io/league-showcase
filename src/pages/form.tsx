@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import React from "react";
-import { Button, DatePicker, Form, Input, SelectSearch, useForm, FormField } from "@caisy/league";
+import { Button, DatePicker, Form, Input, useForm, FormField } from "@caisy/league";
 
 export default function FormShowcase() {
   const [selectItems, setSelectItems] = React.useState([
@@ -72,7 +72,7 @@ export default function FormShowcase() {
         </FormField>
       </div>
       <div>
-        <FormField
+        {/* <FormField
           rules={[
             { name: "required", message: "This field is required.", condition: (value) => value && value !== "" },
           ]}
@@ -81,7 +81,7 @@ export default function FormShowcase() {
           control={control}
         >
           <SelectSearch items={selectItems} setItems={setSelectItems} placeholder="Select" />
-        </FormField>
+        </FormField> */}
       </div>
       <div>
         <FormField label="DatePicker" initialValue={new Date()} name="datepicker" control={control}>

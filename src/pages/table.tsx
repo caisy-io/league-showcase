@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, IconEdit, IconTrashDelete, Input, Table } from "../../../league/src";
+import { Button, IconEdit, IconTrashDelete, Input, Table } from "@caisy/league"
 
 const TableShowcase = () => {
   const [dataSource, setDataSource] = React.useState([
